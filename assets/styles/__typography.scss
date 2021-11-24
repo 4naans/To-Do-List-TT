@@ -1,0 +1,29 @@
+html {
+    font-family: 'Jost', sans-serif;
+}
+
+h1 {
+    font-size: 48px, $semibold-weight;
+    color: $title-color;
+    text-align: center;
+  
+    padding-top: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    text-decoration: $medium-weight;
+    color: $title-color;
+}
+
+h3 {
+    font-size: 16px;
+    color: $tertiary-color;
+    text-decoration: $medium-weight;
+    margin-left: 20px;
+}
+
+#topLeft {
+    font-size: $medium-weight;
+    color: $title-color;
+}

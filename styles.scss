@@ -1,59 +1,22 @@
-html{
-    font-family: JOST;
-    background-color: 
-        #232229;
-}
-//font - @import url(‘https://fonts.googleapis.com/css2?family=jost:wght@400;500;600;700&display=swap')
+@import "./assets/styles/_variables.scss";
+@import "./assets/styles/_buttons.scss";
+@import "./assets/styles/_typography.scss";
 
-
-.wrapper{
-    background: $background;
-
-        body.wrapper.h1 {
-            color: $h2Colour;
-            font-size: 48px;
-            font-weight: large;
-
-                body.wrapper.h3{
-                    color: $h3Colour;
-                    font-size: 16px;
-                    font-weight:bold;
-
-                        body.wrapper.h2 {
-                            color:$h2Colour;
-                            font-size: 24px;
-                            font-weight: medium;
-            }
-        }
-    }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-
-h2 {
-    font-size: 24px;
-    font-weight: medium;
+body {
+    background-color: $primary-color;
+    display: flex;
+    flex-direction: column;
 }
-h3 {
-    font-size: 16px;
-    font-weight:bold
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5%;
 }
-h4 {
-    font-size: 16px;
-    font-weight:normal
-}
-//colours
-
-$background: #232229;
-
-$h2Colour: #FFFFFF;
-
-$h3Colour: #6C7A7C;
-
-$containerShades: #2B2A33;
-
-$btnIcons: #E58181;
-
-
-/*font-family {
-    @import url(‘https://fonts.googleapis.com/css2?family=jost:wght@400;500;600;700&display=swap')
-*/
