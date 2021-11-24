@@ -82,14 +82,20 @@ h4 {
 }
 
 .container {
-
-    
+    border: dashed;
+  color: #6C7A7C;
+  background-color:#2B2A33 ;
+  padding: 20px;
+  margin: 5px;
+    gap: 5px;
+    border-radius: 25%;
 }
     input { 
         background-color: #2B2A33;
         width: 90%;
         height: 10%;
         padding: 10px;
+        border: none;
     }
         .submit {
     background-color: #EA8282;
