@@ -1,23 +1,59 @@
+html{
+    font-family: JOST;
+    background-color: 
+        #232229;
+}
+//font - @import url(‘https://fonts.googleapis.com/css2?family=jost:wght@400;500;600;700&display=swap')
+
+
+.wrapper{
+    background: $background;
+
+        body.wrapper.h1 {
+            color: $h2Colour;
+            font-size: 48px;
+            font-weight: large;
+
+                body.wrapper.h3{
+                    color: $h3Colour;
+                    font-size: 16px;
+                    font-weight:bold;
+
+                        body.wrapper.h2 {
+                            color:$h2Colour;
+                            font-size: 24px;
+                            font-weight: medium;
+            }
+        }
+    }
+}
+
+
+h2 {
+    font-size: 24px;
+    font-weight: medium;
+}
+h3 {
+    font-size: 16px;
+    font-weight:bold
+}
+h4 {
+    font-size: 16px;
+    font-weight:normal
+}
 //colours
-$primary-colour{
-#232229
-}
-$secondary-color{
-#2B2A33
-}
 
-$tertiary-colour{
-    #6C7A7C
-}
+$background: #232229;
 
-$accent-colour1 {
-#FFFFFF
-}
+$h2Colour: #FFFFFF;
 
-$Accentcolour2 {
-    #E58181
-}
+$h3Colour: #6C7A7C;
 
-font-family {
+$containerShades: #2B2A33;
+
+$btnIcons: #E58181;
+
+
+/*font-family {
     @import url(‘https://fonts.googleapis.com/css2?family=jost:wght@400;500;600;700&display=swap')
-}
+*/

@@ -8,20 +8,26 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-      <h1>Welcome Back Jake!</h1>
-        <h3>Lets enter the tasks we need to complete for this upcoming week. Just use the input below to create a todo list.</h2>
+      <nav>
+          <ul id="topLeft">My Todos</ul>
+          <button class="reset">Reset</button>
+      </nav>
+      <div class="wrapper">
+        <h1>Welcome Back Jake!</h1>
+            <h3>Lets enter the tasks we need to complete for this upcoming week. Just use the input below to create a todo list.</h2>
 
-    <div class="container">
-        <input type="text"> 
-        <button class="submit">+</button>
+        <div class="container">
+            <input type="text"> 
+            <button class="submit">+</button>
+        </div>
+        <br>
+        <h2>Tasks</h2>
+        <div class="list-objects"></div>
+
+
+        <h3>All tasks have been completed. Great Job!</h3>
     </div>
-    <br>
-    <h2>Tasks</h2>
-    <div class="list-objects"></div>
-
-
-    <h3>All tasks have been completed. Great Job!</h3>
-	<script src="index.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
 
